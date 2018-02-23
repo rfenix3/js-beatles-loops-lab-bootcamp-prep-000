@@ -5,3 +5,6 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return beatlesPlay;
 }
+
+var musicians = ['John Lenon', 'Ringo Star'];
+var instruments
