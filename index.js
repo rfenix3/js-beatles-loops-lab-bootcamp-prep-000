@@ -3,11 +3,16 @@ function theBeatlesPlay(musicians, instruments) {
   for (let i=0; i<musicians.length; i++) {
     beatlesPlay.push(`${musicians[i]} plays ${instruments[i]}`);
   }
-  console.log(beatlesPlay);
   return beatlesPlay;
 }
 
-var musicians = ['John Lenon', 'Ringo Star'];
-var instruments = ['guitar', 'drum'];
-
-theBeatlesPlay(musicians, instruments);
+function johnLennonFacts(lennonFacts){
+  var i = 0;
+  var len = lennonFacts.length
+  var addExclaim = [];
+  while (i < len){
+    addExclaim.push(`${lennonFacts[i]}!!!`);
+    i++;
+  }
+  return addExclaim;
+}
