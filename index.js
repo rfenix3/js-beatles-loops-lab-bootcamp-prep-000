@@ -21,8 +21,8 @@ function iLoveTheBeatles(number){
   shoutOut = [];
   do {
     shoutOut.push("I love the Beatles!");
-    number--
-  } while (number > 0 || number > 15);
+    number++
+  } while (number < 15);
   console.log(shoutOut);
   return shoutOut;
 }
