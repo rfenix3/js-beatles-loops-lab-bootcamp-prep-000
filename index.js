@@ -17,4 +17,17 @@ function johnLennonFacts(lennonFacts){
   return addExclaim;
 }
 
-function 
+function iLoveTheBeatles(number){
+  shoutOut = [];
+  do {
+    shoutOut.push("I love the Beatles!");
+    number--
+  } while (number > 0 || number > 15);
+  return shoutOut;
+}
+
+
+
+
+
+
